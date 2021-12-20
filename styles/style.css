@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap);
+:root{
+    /* Primary */
+
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+
+/* ### Neutral */
+
+--Transparent-white: hsla(0, 0%, 100%, 0.75);
+--Very-light-gray: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--Very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Big Shoulders Display', cursive; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Container */
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sedan */
+
+.sedan {
+    width:15%;
+    height: 60%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: var(--Bright-orange);
+    padding: 2rem;
+}
+
+.sedan .card-text{
+    color: var(--Transparent-white);
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+}
+
+.sedan h1 {
+    color: var(--Very-light-gray)
+}
+
+/* Suv */
+
+.suv {
+    width: 15%;
+    height: 60%;
+    background-color: var(--Dark-cyan);
+}
+
+/* Luxury */
+
+.luxury {
+    width: 15%;
+    height: 60%;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--Very-dark-cyan);
+}
