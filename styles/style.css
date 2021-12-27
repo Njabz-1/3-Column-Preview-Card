@@ -174,3 +174,53 @@ html {
     color: var(--Transparent-white);
     border: solid 1px var(--Transparent-white);
 }
+
+/*** Mobile responsiveness ***/
+
+/* 375px and smaller */
+@media only screen and (max-width: 480px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200vh;
+        padding-top: 5rem;
+        padding-right: 10rem;
+        padding-left: 10rem;
+        padding-bottom:5rem;
+    }
+
+    .sedan {
+        height: 20%;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 1rem;
+        width: 100%;
+    }
+
+    .sedan .card-text{
+        padding-bottom: 1rem;
+    }
+
+    .suv {
+        height: 20%;
+        width: 100%;
+    }
+
+    .suv .card-text{
+        padding-bottom: 1rem;
+    }
+
+    .luxury {
+        height: 20%;
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .luxury .card-text {
+        padding-bottom: 1rem;
+    }
+
+}
