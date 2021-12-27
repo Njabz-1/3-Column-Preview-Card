@@ -137,6 +137,12 @@ html {
     width: 65%;
 }
 
+.sedan .btn:hover{
+    background-color: var(--Bright-orange);
+    color: var(--Transparent-white);
+    border: solid 1px var(--Transparent-white);
+}
+
 .suv .btn{
     background-color: var(--Transparent-white);
     color: var(--Dark-cyan);
@@ -147,6 +153,12 @@ html {
     width: 65%;
 }
 
+.suv .btn:hover{
+    background-color: var(--Dark-cyan);
+    color: var(--Transparent-white);
+    border: solid 1px var(--Transparent-white);
+}
+
 .luxury .btn{
     background-color: var(--Transparent-white);
     color: var(--Very-dark-cyan);
@@ -155,4 +167,10 @@ html {
     padding: 1rem;
     font-size: 1.2rem;
     width: 65%;
+}
+
+.luxury .btn:hover {
+    background-color: var(--Very-dark-cyan);
+    color: var(--Transparent-white);
+    border: solid 1px var(--Transparent-white);
 }
