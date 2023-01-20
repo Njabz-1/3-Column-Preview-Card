@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images\Capture-Desktop.JPG) - Desktop Screenshot
+![](images/Capture-Desktop.JPG) - Desktop Screenshot
 ![](images\Capture - Mobile.JPG) - Mobile Screenshot
 
 
